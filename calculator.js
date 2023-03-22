@@ -9,7 +9,7 @@ const calculator = {
         return a * b;
     },
     divide(a, b) {
-        return a / b;
+        return (a / b).toFixed(2);
     },
     power: (a,b) => a / b,
 }
